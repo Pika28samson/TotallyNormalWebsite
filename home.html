@@ -1,0 +1,50 @@
+<html>
+    <head>
+	<title> Totally Normal Website </title>
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <center>
+
+	    <div class="NavBar">
+		<a href="home.html"> <strong> Home </strong> </a>
+                <font size=6 id="Spliter"><strong> | </strong></font>
+		<a href="game.html"> <strong> Game </strong> </a>
+                <font size=6 id="Spliter"><strong> | </strong></font>
+		<a href="test.html"> <strong> Form </strong> </a>
+	    </div>
+	
+	<div class="NoteText" id="CheckText"> <strong> ⬅ don't forget to check these out! </strong> </div>
+
+	<br><br><br>
+	<h1>Totally Normal Website</h1><br>
+	<div class="NoteText" id="IntroText"> <strong> 
+	    hi my name is samson i play basketball and do some random coding projects in my free time. <br>
+	    i also really like pokemons so if you do also please be friend with me :) <br>
+	    (all elements below are interactable btw)
+	</strong> </div>
+	
+	<input id="TacoBtn" type="image" src="taco.png" onclick="StartTaco();"/>
+
+	</center>
+
+	<input id="Cat" type="image" src="cat-idle.png" onclick="PlayCat()"/>
+	
+	<div class="Form" id="HomeForm"> <strong>
+	    Maths Question:<br>
+            60 + 7 = <input type="text" id="HomeInput" oninput="Check67()">
+	</strong> </div>
+	<div id="Jumpscare"></div>
+
+	<img id="Apple" src = "apple.png">
+	<img id="Pencil" src = "pencil.png">
+	<div class="NoteText" id = "PencilText"> ⬅ drag </div>
+
+	<input id="NyanCat" type="image" src = "nyan-idle.png" onclick = "PlayNyan();">
+
+        <script src = home.js> </script>
+
+    </body>
+</html>

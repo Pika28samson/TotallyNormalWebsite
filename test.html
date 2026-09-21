@@ -1,0 +1,64 @@
+<html>
+    <head>
+	<title> Totally Normal Website </title>
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <center>
+	    <div class="NavBar">
+		<a href="home.html"> <strong> Home </strong> </a>
+                <font size=6 id="Spliter"><strong> | </strong></font>
+		<a href="game.html"> <strong> Game </strong> </a>
+                <font size=6 id="Spliter"><strong> | </strong></font>
+		<a href="test.html"> <strong> Form </strong> </a>
+	    </div>
+
+		
+	    <br><br>
+	    <div class="NoteText" id="TopText"> <strong> ⬇ this is a marquee </strong> </div>
+	</center>
+        
+	<img id="Stickman" src = "guy.png">
+        <marquee id="Bullet" direction = right scrollamount = 200 width = 1200><font size = 10><strong> - </strong></font></marquee>
+        <input id="RButton" type="button" value="Click Me" onclick="Rickroll()" />
+        <video width="204" height="160" id="Rickroll">
+            <source src="rickroll.mp4" type="video/mp4">
+        </video>
+
+
+
+        <form id="Form" onsubmit="return Summit();">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <h1>Totally Not A Scam</h1>
+            Full Name: <input type="text" id="Name" required><br><br>
+            Gender:
+            <select name="gender" id="Gender" required>
+                <option disabled selected value> -- select an option -- </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="pokemon">Pokemon (?)</option>
+                <option value="others">Prefer not to say</option>
+            </select><br><br>
+            Credit Card Number: <input type="number" id="CardNum" required><br><br>
+            Just pick one:<br>
+            <input type="radio" id="Choice" name="Choice" value="A" required>
+            <label for="html">A</label><br>
+            <input type="radio" id="Choice" name="Choice" value="B">
+            <label for="css">B</label><br><br>
+            <input type="checkbox" id = "Checkbox" required> I agree to sell my soul <br><br>
+            <input type="submit" value="Submit"><br><br>
+            <span id="Result"></span>
+        </form>
+
+
+        <canvas id="Canvas" width="600" height="100" style="border:3px solid #000000;"></canvas>
+
+	<image src="football.png" id="Football" length = "67" height = "67">
+	<image src="goal_back.png" id="GoalB" length = 50% height = 50%>
+	<image src="goal_front.png" id="GoalF" length = 50% height = 50%>
+	<div class="NoteText" id="BottomText"> <strong> ⬆ drag me </strong> </div>
+
+        <script src = test.js> </script>
+    </body>
+</html>

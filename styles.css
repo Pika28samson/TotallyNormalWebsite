@@ -1,0 +1,211 @@
+body{
+    background-image: url('bg.avif');
+    background-size: 100%;
+    overflow: hidden;
+}
+h1{
+    font-size: 67;
+    line-height:25px;
+}
+h2{
+    font-size: 40;
+}
+div.Container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+div.Container div{
+    width: 50%;
+    overflow: hidden;
+}
+#Line{
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+#Stickman {
+    position: fixed;
+    top: 40;
+    left: 0;
+}
+#Bullet {
+    position: fixed;
+    top: 66;
+    left: 170;
+}
+#RButton {
+    position: fixed;
+    top: 82;
+    right: 158;
+    font-size: 25;
+    color: red;
+    border: 2px solid red;
+}
+#RButton:hover{
+    background-color: CCCCCC;
+}
+#Rickroll{
+    position: fixed;
+    top: 150;
+    right: 110;
+    visibility: hidden;
+}
+.NoteText{
+    font-family: 'Courier New', monospace;
+}
+#TopText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+}
+#Form{
+    position: fixed;
+    left:50;
+}
+#Canvas {
+    position: fixed;
+    bottom: 60;
+    right: 60;
+    visibility: hidden;
+}
+.NavBar {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  width: 500px;
+  margin-left: -250;
+}
+.NavBar a {
+  float: left;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  padding: 8px 30px;
+  text-decoration: none;
+}
+.NavBar a:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#Spliter {
+    position: relative;
+    top: -4px;
+}
+#Football{
+  position: absolute;
+  right: 1000;
+  bottom: 60;
+  z-index: 0;
+}
+#GoalB{
+  position: fixed;
+  right: 60;
+  bottom: 60;
+  z-index: -1;
+  pointer-events: none;
+}
+#GoalF{
+  position: fixed;
+  right: 60;
+  bottom: 60;
+  z-index: 1;
+  pointer-events: none;
+}
+#BottomText{
+  position: fixed;
+  right: 953;
+  bottom: 35;
+  z-index: 0;
+}
+.Taco{
+  position: absolute;
+  right: 1000;
+  top: -60;
+  opacity: 0.67;
+  z-index: -1;
+}
+#IntroText{
+  line-height:23px;
+}
+#Cat{
+  top: 330;
+  left: 7%;
+  position: absolute;
+}
+.Form{
+  font-size: 20;
+}
+#HomeForm{
+  bottom: 120;
+  left: 22%;
+  position: absolute;
+}
+.Wrapper{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#Jumpscare{
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+#TacoBtn{
+  top: 350;
+  left: 40%;
+  width: 200;
+  position: absolute;
+}
+#CheckText{
+  top: 16;
+  right: 250;
+  position: fixed;
+}
+#Apple{
+  bottom: 80;
+  right: 30%;
+  width: 160;
+  position: absolute;
+  z-index: 1;
+}
+#Pencil{
+  bottom: 135;
+  right: -10%;
+  height: 40;
+  position: absolute;
+  z-index: 0;
+}
+#PencilText{
+  bottom: 120;
+  right: 3%;
+  position: absolute;
+}
+#NyanCat{
+  top: 330;
+  right: 7%;
+  height: 150;
+  transform: scaleX(-1);
+  position: absolute;
+  z-index: 0;
+}
+.NyanTrail{
+  top: 320;
+  right: 11%;
+  height: 150;
+  transform: scaleX();
+  position: absolute;
+  z-index: -1;
+}

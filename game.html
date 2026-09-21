@@ -1,0 +1,67 @@
+<html>
+    <head>
+	<title> Totally Normal Website </title>
+        <link rel="icon" href="icon.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <center>
+	    <div class="NavBar">
+		<a href="home.html"> <strong> Home </strong> </a>
+                <font size=6 id="Spliter"><strong> | </strong></font>
+		<a href="game.html"> <strong> Game </strong> </a>
+                <font size=6 id="Spliter"><strong> | </strong></font>
+		<a href="test.html"> <strong> Form </strong> </a>
+	    </div>
+
+	    <br><br><br>
+
+            <table width = 40% border = 1>
+                <tr>
+                    <th colspan="3"><font size = 6>Tic Tac Toe</font></th>
+                </tr>
+                <tr>
+                    <th colspan="3"><font size = 6 id="TurnText">Current Turn: O</font></th>
+                </tr>
+                <tr>
+                    <td width="33.3%">
+                        <input type="image" id="1" src="Blank.png" height="100%" width="100%" onclick="OnClick('1');">
+                    </td>
+                    <td width="33.3%">
+                        <input type="image" id="2" src="Blank.png" height="100%" width="100%" onclick="OnClick('2');">
+                    </td>
+                    <td width="33.3%">
+                        <input type="image" id="3" src="Blank.png" height="100%" width="100%" onclick="OnClick('3');">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="33.3%">
+                        <input type="image" id="4" src="Blank.png" height="100%" width="100%" onclick="OnClick('4');">
+                    </td>
+                    <td width="33.3%">
+                        <input type="image" id="5" src="Blank.png" height="100%" width="100%" onclick="OnClick('5');">
+                    </td>
+                    <td width="33.3%">
+                        <input type="image" id="6" src="Blank.png" height="100%" width="100%" onclick="OnClick('6');">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="33.3%">
+                        <input type="image" id="7" src="Blank.png" height="100%" width="100%" onclick="OnClick('7');">
+                    </td>
+                    <td width="33.3%">
+                        <input type="image" id="8" src="Blank.png" height="100%" width="100%" onclick="OnClick('8');">
+                    </td>
+                    <td width="33.3%">
+                        <input type="image" id="9" src="Blank.png" height="100%" width="100%" onclick="OnClick('9');">
+                    </td>
+                </tr>
+            </table>
+
+            <img id="Line" src="Line.png" width = 40%>
+        </center>
+
+
+        <script src = game.js></script>
+    </body>
+</html>
